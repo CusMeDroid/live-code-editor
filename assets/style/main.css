@@ -77,8 +77,13 @@ label {
 /*
   @iyortml
 */
+  cursor: pointer;
   background: #000;
   height: 30px;
+}
+
+.collapsible {
+  cursor: pointer;
 }
 
 .active, .collapsible:hover {
