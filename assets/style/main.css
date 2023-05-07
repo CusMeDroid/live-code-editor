@@ -24,9 +24,6 @@ body {
 /*
   @iyortml
 */
-/*
-  @iyortml
-*/
   height: 100vh;
   padding: 20px;
   display: flex;
@@ -80,9 +77,24 @@ label {
   background: #000;
   height: 30px;
 }
+/*
+  @iyortml
+*/
+.collapsible {
+  cursor: pointer;
+}
+/*
+  @iyortml
+*/
+.active, .collapsible:hover {
+  background-color: #333;
+}
 
-.clp-content {
+.content {
   display: block;
+/*
+  @iyortml
+*/
   overflow: auto;
 }
 
@@ -116,6 +128,13 @@ label {
   }
   .clp-content {
     display: none;
+/*
+  @iyortml
+*/
+    overflow: auto;
+  }
+  .content {
+    display: block;
 /*
   @iyortml
 */
