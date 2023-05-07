@@ -9,7 +9,7 @@ This is live code editor (HTML, CSS &amp; JS)
 
 [<img alt="Live Code Editor" title="Live Code Editor" width="280px" src="assets/images/LCE_Phone.png" />](https://cusmedroid.github.io/live-code-editor)
 
-> In Phone Interface
+> In Computer/Laptop Interface
 
 [<img alt="Live Code Editor" title="Live Code Editor" width="100%" src="assets/images/LCE_Laptop.png" />](https://cusmedroid.github.io/live-code-editor)
 
