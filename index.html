@@ -18,7 +18,7 @@
     <script type='text/javascript' src='https://cusmedroid.github.io/js/jquery-3.6.0.min.js'></script>
     <script src="https://kit.fontawesome.com/1e34aa76be.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body id="myCopyright">
     <div class="container">
       <div class="left">
         <label class="collapsible"><i class="fa-brands fa-html5"></i> HTML</label>
@@ -45,33 +45,6 @@
         <iframe id="output"></iframe>
       </div>
     </div>
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.display === "none") {
-            content.style.display = "block";
-          } else {
-            content.style.display = "none";
-          }
-        });
-      }
-    </script>
-
-    <script type="text/javascript">
-      function run() {
-        let htmlCode = document.getElementById("html-code").value;
-        let cssCode = document.getElementById("css-code").value;
-        let jsCode = document.getElementById("js-code").value;
-        let output = document.getElementById("output");
-
-        output.contentDocument.body.innerHTML = htmlCode+"<style>"+cssCode+"</style>";
-        output.contentWindow.eval(jsCode);
-      }
-    </script>
+    <script type='text/javascript' src='https://cusmedroid.github.io/js/a2SosWpl0AzDLCE.js'></script>
   </body> 
 </html>
