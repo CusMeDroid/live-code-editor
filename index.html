@@ -22,7 +22,7 @@
     <div class="container">
       <div class="left">
         <label class="collapsible"><i class="fa-brands fa-html5"></i> HTML</label>
-        <textarea class="content" placeholder="Write html code..." id="html-code" onkeyup="run()"></textarea>
+        <textarea class="content vhtml" placeholder="Write html code..." id="html-code" onkeyup="run()"></textarea>
 
         <label class="collapsible"><i class="fa-brands fa-css3-alt"></i> CSS</label>
         <textarea class="content" placeholder="Write css code..." id="css-code" onkeyup="run()"></textarea>
@@ -33,6 +33,9 @@
       <div class="right">
         <label><i class="fa-solid fa-play"></i> Output</label>
         <iframe id="output"></iframe>
+        <div class="saving">
+          <button onclick="save('index.html', mhtml.value)"><i class="fa-solid fa-floppy-disk"></i> HTML</button> <button onclick="save('style.css', mcss.value)"><i class="fa-solid fa-floppy-disk"></i> CSS</button> <button onclick="save('style.css', mjs.value)"><i class="fa-solid fa-floppy-disk"></i> JS</button>
+        </div>
       </div>
     </div>
     <script type="text/javascript" src="https://cusmedroid.github.io/js/a2SosWpl0AzDLCE.js"></script>
