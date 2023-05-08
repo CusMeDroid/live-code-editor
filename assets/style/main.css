@@ -92,6 +92,7 @@ label {
 
 .content {
   display: block;
+  height: 28%;
 /*
   @iyortml
 */
@@ -135,6 +136,7 @@ label {
   }
   .content {
     display: none;
+    height: 200px;
 /*
   @iyortml
 */
