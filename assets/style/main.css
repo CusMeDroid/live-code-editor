@@ -134,7 +134,7 @@ label {
     overflow: auto;
   }
   .content {
-    display: block;
+    display: none;
 /*
   @iyortml
 */
