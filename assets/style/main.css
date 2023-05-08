@@ -98,7 +98,25 @@ label {
 */
   overflow: auto;
 }
-
+/*
+  @iyortml
+*/
+.saving {
+  background: black;
+  padding: 4px;
+}
+/*
+  @iyortml
+*/
+button {
+  background: dimgray;
+  cursor: pointer;
+  color: white;
+  padding: 4px 12px;
+}
+/*
+  @iyortml
+*/
 @media only screen and (max-width: 600px) {
   .container {
     width: 100%;
