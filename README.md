@@ -1,10 +1,12 @@
 # Live Code Editor (LCE)
 This is live code editor (HTML, CSS &amp; JS)
 
-My goal is to make a live code editor to make it easier for beginners who want to make page website by writing code. If you are used to creating web views by writing code, this is the place to write and display the results you write.
+My goal to make a live code editor to make it easier for users who want to make page website by writing code. If you are used to creating web views by writing code, this is the place to write and display the results you write.
 
-Realese/publish on Website v1.0
+# Security
+> We do not store any data for what you write on this website, other than users are visitors for traffic analytics.
 
+# Realese/publish on Website v1.0
 Changelog :
 ```
   1. Minimalist UI/UX
