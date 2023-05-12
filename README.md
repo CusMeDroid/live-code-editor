@@ -74,3 +74,7 @@ document.getElementById('meexample').innerHTML = 'Has it changed?';
 # Screenshoot (SS) | Result Output
 
 [<img alt="Live Code Editor" title="Live Code Editor" width="80%" src="assets/images/LCE_Ex_Guide.gif" />](https://cusmedroid.github.io/live-code-editor)
+
+# Save to lokal dir
+
+[<img alt="Live Code Editor" title="Live Code Editor" width="80%" src="assets/images/LCE_Ex_Guide_Save.gif" />](https://cusmedroid.github.io/live-code-editor)
